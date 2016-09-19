@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <title>Zadanie Efigence</title>
+</head>
+<body>
+    <div class="container">
+            <div class='page-header'>
+                <h1>Rejestracja</h1>
+            </div>
+            <div class='panel'>
+                <div class='panel-body'>
+                    <form>
+                        <label for="first_name">Twoje imię</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Twoje Imie" />
+                        <hr>
+                        <label for="pesel">Twój pesel</label>
+                        <input type="text" name="pesel" id="pesel" placeholder="Twój pesel" />
+                        <hr>
+                        <label for="birth">Data urodzenia</label>
+                        <input type="text" name="birth" id="birth" placeholder="YYYY-MM-DD" />
+                        <hr>
+                        <label for="day">Jaki mamy dzisiaj dzień?</label>
+                        <select id="day">
+                            <option value =""></option>
+                            <option value="poniedzialek">poniedzialek</option>
+                            <option value="wtorek">wtorek</option>
+                            <option value="sroda">sroda</option>
+                            <option value="czwartek">czwartek</option>
+                            <option value="piatek">piatek</option>
+                            <option value="sobota">sobota</option>
+                            <option value="niedziela">niedziela</option>
+                        </select>
+                        <hr>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
